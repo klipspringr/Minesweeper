@@ -101,7 +101,7 @@ public void displayLosingMessage()
         }
     }
 
-    System.out.println("Something happened!");
+    // System.out.println("Something happened!");
 
     buttons[9][6].setLabel("Y");
     buttons[9][7].setLabel("O");
