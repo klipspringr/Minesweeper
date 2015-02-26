@@ -168,7 +168,7 @@ public class MSButton
             isFinished = true;
         }
         else if (countBombs(this.r, this.c) != 0) {
-            this.setLabel(Integer.toString(countBombs(this.r, this.c)));
+            this.setLabel("" + (countBombs(this.r, this.c)));
         //your code here
         }
         else
